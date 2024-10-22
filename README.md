@@ -1,6 +1,6 @@
 # Sinhala Handwriting Recognition
 
-This project is an Express.js server that utilizes TensorFlow.js to recognize Sinhala handwritten characters from uploaded images. It uses a pre-trained model to classify images into one of the Sinhala characters it has been trained on.
+This project is an Express.js server that uses TensorFlow.js to classify Sinhala handwritten characters from uploaded images. It processes the images, runs predictions using a pre-trained model, and returns the predicted Sinhala character through an API. This system is designed to assist in recognizing Sinhala handwriting, and can be extended with additional features or improved model accuracy.
 
 ## Features
 - Accepts image uploads via an API endpoint.
